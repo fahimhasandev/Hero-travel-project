@@ -1,0 +1,10 @@
+/* Nav section */
+
+@media screen and (max-width: 567px) {
+  .nav-options {
+    display: none;
+  }
+  .fa-light {
+    display: inline;
+  }
+}
