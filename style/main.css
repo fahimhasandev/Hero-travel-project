@@ -45,7 +45,7 @@ a:focus {
 
 .container {
   width: 90%;
-  margin: 5rem auto;
+  margin: 3rem auto;
   border-radius: 1rem;
   /* border: 2px solid red; */
 }
@@ -61,11 +61,21 @@ h3 {
 }
 
 .btn-primary {
-  width: 175px;
+  /* width: 175px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 8px;
+  background-color: var(--orange-color); */
+  width: 174px;
+  height: 52px;
+  border: none;
+  border-radius: 8px;
+  padding: 0 0.5rem;
+  margin: 0 1rem;
+  /* text-align: center; */
+  cursor: pointer;
+  font-size: 16px;
   color: var(--white-color);
   background-color: var(--orange-color);
 }
@@ -153,4 +163,36 @@ h3 {
   /* text-align: center; */
   cursor: pointer;
   font-size: 16px;
+}
+
+/* Popular Tour items */
+.popular-tours-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.popular-text-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  justify-content: space-between;
+}
+.popular-text-content li,
+.popular-text-content p {
+  list-style-type: disc;
+  text-align: left;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+.popular-image {
+}
+.list-style {
+  margin-right: 1.2rem;
+}
+
+.popular-text-content li,
+.popular-text-content p,
+.popular-text-content h3 {
+  text-align: left;
 }
